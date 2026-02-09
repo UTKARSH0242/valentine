@@ -84,7 +84,7 @@ const Footer = () => {
 
                         <p className="font-semibold mt-10">
                             Yours Forever,<br />
-                            Utkarsh 💕
+                            Prashant(P.K.) 💕
                         </p>
                     </div>
                 </motion.div>
