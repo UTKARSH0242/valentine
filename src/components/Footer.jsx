@@ -54,7 +54,7 @@ const Footer = () => {
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
-                    transition={{ duration: 0.8 }}
+                    transition={{ duration: 0.81 }}
                     className="glass-card rounded-2xl sm:rounded-3xl p-8 sm:p-10 md:p-16 shadow-2xl border-white/50 backdrop-blur-xl relative overflow-hidden"
                 >
                     {/* Decorative Corner Flourish */}
@@ -108,4 +108,5 @@ const Footer = () => {
     )
 }
 
+// Forces rebuild
 export default Footer
